@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F2892971E955E4C00730320 /* DateTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1F2892961E955E4C00730320 /* DateTools.bundle */; };
 		1F9B12D21E955D2A0025E0A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B12D11E955D2A0025E0A5 /* AppDelegate.swift */; };
 		1F9B12D91E955D2A0025E0A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B12D81E955D2A0025E0A5 /* Assets.xcassets */; };
 		1F9B12DC1E955D2A0025E0A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B12DA1E955D2A0025E0A5 /* LaunchScreen.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F2892961E955E4C00730320 /* DateTools.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DateTools.bundle; path = Pods/DateTools/DateTools/DateTools.bundle; sourceTree = "<group>"; };
 		1F9B12CE1E955D2A0025E0A5 /* Streams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Streams.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F9B12D11E955D2A0025E0A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F9B12D81E955D2A0025E0A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -41,6 +43,7 @@
 		1F9B12C51E955D2A0025E0A5 = {
 			isa = PBXGroup;
 			children = (
+				1F2892961E955E4C00730320 /* DateTools.bundle */,
 				1F9B12E31E955D440025E0A5 /* Podfile */,
 				1F9B12D01E955D2A0025E0A5 /* Streams */,
 				1F9B12CF1E955D2A0025E0A5 /* Products */,
@@ -151,6 +154,7 @@
 				1F9B12E41E955D440025E0A5 /* Podfile in Resources */,
 				1F9B12DC1E955D2A0025E0A5 /* LaunchScreen.storyboard in Resources */,
 				1F9B12D91E955D2A0025E0A5 /* Assets.xcassets in Resources */,
+				1F2892971E955E4C00730320 /* DateTools.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +369,7 @@
 				1F9B12E21E955D2A0025E0A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
