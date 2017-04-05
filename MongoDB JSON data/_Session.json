@@ -1,0 +1,106 @@
+{ 
+    "_id" : "7a1It6g2jZ", 
+    "_rperm" : [
+        "D2oyw9cpi6"
+    ], 
+    "restricted" : false, 
+    "_updated_at" : ISODate("2015-12-15T11:37:56.154+0000"), 
+    "_acl" : {
+        "D2oyw9cpi6" : {
+            "r" : true, 
+            "w" : true
+        }
+    }, 
+    "_session_token" : "r:JdIwyJHw7D8v7NwOYfrITUv4W", 
+    "createdWith" : {
+        "action" : "login", 
+        "authProvider" : "password"
+    }, 
+    "_created_at" : ISODate("2015-12-15T11:37:56.154+0000"), 
+    "_wperm" : [
+        "D2oyw9cpi6"
+    ], 
+    "_p_user" : "_User$D2oyw9cpi6", 
+    "expiresAt" : ISODate("2016-12-14T11:37:56.144+0000"), 
+    "installationId" : "f8f5fdc6-1bbd-4ca2-8ac8-9a73ad9fde3f"
+}
+{ 
+    "_id" : "BeS3Z6MmIT", 
+    "createdWith" : {
+        "action" : "login", 
+        "authProvider" : "password"
+    }, 
+    "expiresAt" : ISODate("2016-12-14T15:01:19.688+0000"), 
+    "_created_at" : ISODate("2015-12-15T15:01:19.694+0000"), 
+    "_session_token" : "r:8jFUOYeZ9aq47uyC9JxagHp9d", 
+    "_p_user" : "_User$D2oyw9cpi6", 
+    "_wperm" : [
+        "D2oyw9cpi6"
+    ], 
+    "_rperm" : [
+        "D2oyw9cpi6"
+    ], 
+    "restricted" : false, 
+    "_acl" : {
+        "D2oyw9cpi6" : {
+            "r" : true, 
+            "w" : true
+        }
+    }, 
+    "_updated_at" : ISODate("2015-12-15T15:01:19.694+0000"), 
+    "installationId" : "93d066d3-39ab-44fc-9b7c-a0d4ba20acce"
+}
+{ 
+    "_id" : "VbnRINYmyB", 
+    "installationId" : "3fbd10aa-1278-4055-96f1-7bcc743e63e1", 
+    "restricted" : false, 
+    "expiresAt" : ISODate("2016-12-14T10:45:50.287+0000"), 
+    "_created_at" : ISODate("2015-12-15T10:45:50.304+0000"), 
+    "_rperm" : [
+        "D2oyw9cpi6"
+    ], 
+    "createdWith" : {
+        "action" : "login", 
+        "authProvider" : "password"
+    }, 
+    "_p_user" : "_User$D2oyw9cpi6", 
+    "_session_token" : "r:AK9tBopl6MJ5yRInCoPF8qUgF", 
+    "_wperm" : [
+        "D2oyw9cpi6"
+    ], 
+    "_updated_at" : ISODate("2015-12-15T10:45:50.304+0000"), 
+    "_acl" : {
+        "D2oyw9cpi6" : {
+            "r" : true, 
+            "w" : true
+        }
+    }
+}
+{ 
+    "_id" : "YsWcRZ6ZeL", 
+    "_session_token" : "r:200d495925767068d34fdf8b94d8f22c", 
+    "_p_user" : "_User$D2oyw9cpi6", 
+    "createdWith" : {
+        "action" : "login", 
+        "authProvider" : "password"
+    }, 
+    "restricted" : false, 
+    "expiresAt" : ISODate("2017-03-27T21:11:10.352+0000"), 
+    "installationId" : "69725db2-da55-4490-9d4a-8b1d03366a5b", 
+    "_updated_at" : ISODate("2016-03-27T21:11:10.353+0000"), 
+    "_created_at" : ISODate("2016-03-27T21:11:10.353+0000")
+}
+{ 
+    "_id" : "wiQbzEAtBC", 
+    "_session_token" : "r:4316a6e7f8797ad182cfa96cfd5f85ca", 
+    "_p_user" : "_User$xCfvt75LNr", 
+    "createdWith" : {
+        "action" : "login", 
+        "authProvider" : "password"
+    }, 
+    "restricted" : false, 
+    "expiresAt" : ISODate("2017-09-02T21:06:58.360+0000"), 
+    "installationId" : "0f8c84ad-92d6-4e0e-9257-97b632b1b36e", 
+    "_updated_at" : ISODate("2016-09-02T21:06:58.361+0000"), 
+    "_created_at" : ISODate("2016-09-02T21:06:58.361+0000")
+}

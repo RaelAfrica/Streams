@@ -1,0 +1,173 @@
+{ 
+    "_id" : "Post", 
+    "_metadata" : {
+        "class_permissions" : {
+            "get" : {
+                "*" : true
+            }, 
+            "find" : {
+                "*" : true
+            }, 
+            "update" : {
+                "*" : true
+            }, 
+            "create" : {
+                "*" : true
+            }, 
+            "delete" : {
+                "*" : true
+            }, 
+            "addField" : {
+                "*" : true
+            }, 
+            "readUserFields" : [
+
+            ], 
+            "writeUserFields" : [
+
+            ]
+        }
+    }, 
+    "text" : "string", 
+    "image" : "file", 
+    "user" : "*_User"
+}
+{ 
+    "_id" : "User_Follow", 
+    "_metadata" : {
+        "class_permissions" : {
+            "get" : {
+                "*" : true
+            }, 
+            "find" : {
+                "*" : true
+            }, 
+            "update" : {
+                "*" : true
+            }, 
+            "create" : {
+                "*" : true
+            }, 
+            "delete" : {
+                "*" : true
+            }, 
+            "addField" : {
+                "*" : true
+            }, 
+            "readUserFields" : [
+
+            ], 
+            "writeUserFields" : [
+
+            ]
+        }
+    }, 
+    "user" : "*_User", 
+    "follower" : "*_User"
+}
+{ 
+    "_id" : "_Role", 
+    "_metadata" : {
+        "class_permissions" : {
+            "get" : {
+                "*" : true
+            }, 
+            "find" : {
+                "*" : true
+            }, 
+            "update" : {
+                "*" : true
+            }, 
+            "create" : {
+                "*" : true
+            }, 
+            "delete" : {
+                "*" : true
+            }, 
+            "addField" : {
+                "*" : true
+            }, 
+            "readUserFields" : [
+
+            ], 
+            "writeUserFields" : [
+
+            ]
+        }
+    }, 
+    "roles" : "relation<_Role>", 
+    "name" : "string", 
+    "users" : "relation<_User>"
+}
+{ 
+    "_id" : "_Session", 
+    "_metadata" : {
+        "class_permissions" : {
+            "get" : {
+                "*" : true
+            }, 
+            "find" : {
+                "*" : true
+            }, 
+            "update" : {
+                "*" : true
+            }, 
+            "create" : {
+                "*" : true
+            }, 
+            "delete" : {
+                "*" : true
+            }, 
+            "addField" : {
+                "*" : true
+            }, 
+            "readUserFields" : [
+
+            ], 
+            "writeUserFields" : [
+
+            ]
+        }
+    }, 
+    "user" : "*_User", 
+    "installationId" : "string", 
+    "restricted" : "boolean", 
+    "expiresAt" : "date", 
+    "createdWith" : "map", 
+    "sessionToken" : "string"
+}
+{ 
+    "_id" : "_User", 
+    "_metadata" : {
+        "class_permissions" : {
+            "get" : {
+                "*" : true
+            }, 
+            "find" : {
+                "*" : true
+            }, 
+            "update" : {
+                "*" : true
+            }, 
+            "create" : {
+                "*" : true
+            }, 
+            "delete" : {
+                "*" : true
+            }, 
+            "addField" : {
+                "*" : true
+            }, 
+            "readUserFields" : [
+
+            ], 
+            "writeUserFields" : [
+
+            ]
+        }
+    }, 
+    "username" : "string", 
+    "email" : "string", 
+    "emailVerified" : "boolean", 
+    "avatar" : "file"
+}

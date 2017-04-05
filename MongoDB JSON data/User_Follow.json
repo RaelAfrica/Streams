@@ -1,0 +1,63 @@
+{ 
+    "_id" : "M9vF0lqQFe", 
+    "_p_follower" : "_User$DgxPd4G5KO", 
+    "_p_user" : "_User$xCfvt75LNr", 
+    "_created_at" : ISODate("2015-05-05T08:10:40.290+0000"), 
+    "_updated_at" : ISODate("2015-05-05T08:10:40.290+0000")
+}
+{ 
+    "_id" : "MnHLOSKxhu", 
+    "_created_at" : ISODate("2015-05-05T08:11:42.184+0000"), 
+    "_updated_at" : ISODate("2015-05-05T08:11:42.184+0000"), 
+    "_p_follower" : "_User$D2oyw9cpi6", 
+    "_p_user" : "_User$DgxPd4G5KO"
+}
+{ 
+    "_id" : "RjlbrvbKCg", 
+    "_updated_at" : ISODate("2015-12-15T15:02:57.551+0000"), 
+    "_p_follower" : "_User$D2oyw9cpi6", 
+    "_p_user" : "_User$xCfvt75LNr", 
+    "_created_at" : ISODate("2015-12-15T15:02:57.551+0000")
+}
+{ 
+    "_id" : "eu1R4RQwVU", 
+    "_p_follower" : "_User$xCfvt75LNr", 
+    "_p_user" : "_User$xCfvt75LNr", 
+    "_created_at" : ISODate("2015-05-05T09:05:14.566+0000"), 
+    "_updated_at" : ISODate("2015-05-05T09:05:14.566+0000")
+}
+{ 
+    "_id" : "fljqHOfTb7", 
+    "_p_user" : "_User$DgxPd4G5KO", 
+    "_p_follower" : "_User$xCfvt75LNr", 
+    "_created_at" : ISODate("2015-05-05T08:54:12.070+0000"), 
+    "_updated_at" : ISODate("2015-05-05T08:54:12.070+0000")
+}
+{ 
+    "_id" : "jiClDqucuT", 
+    "_created_at" : ISODate("2015-05-05T09:05:39.177+0000"), 
+    "_updated_at" : ISODate("2015-05-05T09:05:39.177+0000"), 
+    "_p_follower" : "_User$D2oyw9cpi6", 
+    "_p_user" : "_User$D2oyw9cpi6"
+}
+{ 
+    "_id" : "pCl9Y1JMQN", 
+    "_updated_at" : ISODate("2015-12-15T10:52:41.320+0000"), 
+    "_p_follower" : "_User$DgxPd4G5KO", 
+    "_p_user" : "_User$DgxPd4G5KO", 
+    "_created_at" : ISODate("2015-05-05T09:06:07.678+0000")
+}
+{ 
+    "_id" : "uoY8IzVASr", 
+    "_p_follower" : "_User$DgxPd4G5KO", 
+    "_p_user" : "_User$D2oyw9cpi6", 
+    "_created_at" : ISODate("2015-05-05T08:10:21.151+0000"), 
+    "_updated_at" : ISODate("2015-05-05T08:10:21.151+0000")
+}
+{ 
+    "_id" : "yGDOblJyFF", 
+    "_updated_at" : ISODate("2015-05-05T08:12:40.278+0000"), 
+    "_p_follower" : "_User$xCfvt75LNr", 
+    "_p_user" : "_User$D2oyw9cpi6", 
+    "_created_at" : ISODate("2015-05-05T08:12:40.278+0000")
+}

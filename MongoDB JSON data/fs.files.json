@@ -1,0 +1,198 @@
+{ 
+    "_id" : ObjectId("56f83eec4f215d110012c995"), 
+    "filename" : "9a31e350282fdb82294cff872956a4b7_tfss-6d28632b-e9e9-4e62-8828-d134fd8a18b6-Hk0IKTzrTL.jpg", 
+    "contentType" : "binary/octet-stream", 
+    "length" : NumberInt(1388038), 
+    "chunkSize" : NumberInt(261120), 
+    "uploadDate" : ISODate("2016-03-27T20:13:36.467+0000"), 
+    "aliases" : null, 
+    "metadata" : null, 
+    "md5" : "dd4f0b61249494d263842be749f7a804"
+}
+{ 
+    "_id" : ObjectId("56f83f044f215d110012c99d"), 
+    "filename" : "265c302a6ac03d67320180e94ce04127_tfss-478e98fb-d615-48c6-856c-3f52d18bdb63-Lw65hkkw9z.jpg", 
+    "contentType" : "binary/octet-stream", 
+    "length" : NumberInt(542152), 
+    "chunkSize" : NumberInt(261120), 
+    "uploadDate" : ISODate("2016-03-27T20:13:56.536+0000"), 
+    "aliases" : null, 
+    "metadata" : null, 
+    "md5" : "1e1d8951bf17b158befaf58b149d826c"
+}
+{ 
+    "_id" : ObjectId("56f83f184f215d110012c9a2"), 
+    "filename" : "2f82c3daa8456111d4b77e3632b870df_tfss-ef128de3-c080-4062-8eef-ea959b5d8521-b3fmhkwymZ.jpg", 
+    "contentType" : "binary/octet-stream", 
+    "length" : NumberInt(4307062), 
+    "chunkSize" : NumberInt(261120), 
+    "uploadDate" : ISODate("2016-03-27T20:14:20.297+0000"), 
+    "aliases" : null, 
+    "metadata" : null, 
+    "md5" : "fae95f97ea8eb372c288ae267e409f68"
+}
+{ 
+    "_id" : ObjectId("56f83f2b4f215d110012c9b5"), 
+    "filename" : "ed393660b0d4bbe3fc9e8ae1052a6660_tfss-4a41701b-fb5b-4005-8161-6970e79b9c6f-d1wCg0OsfH.jpg", 
+    "contentType" : "binary/octet-stream", 
+    "length" : NumberInt(708651), 
+    "chunkSize" : NumberInt(261120), 
+    "uploadDate" : ISODate("2016-03-27T20:14:35.773+0000"), 
+    "aliases" : null, 
+    "metadata" : null, 
+    "md5" : "586ab1647b08c9dff5ad1ea60bdeedeb"
+}
+{ 
+    "_id" : ObjectId("56f83f394f215d110012c9ba"), 
+    "filename" : "3e74e8ea61090d892a4a8b78a7021703_tfss-9bfd872a-13bb-416c-a525-df29ea26c01c-sMq8J2yuyX.jpg", 
+    "contentType" : "binary/octet-stream", 
+    "length" : NumberInt(1854310), 
+    "chunkSize" : NumberInt(261120), 
+    "uploadDate" : ISODate("2016-03-27T20:14:51.453+0000"), 
+    "aliases" : null, 
+    "metadata" : null, 
+    "md5" : "80a121e442db2539abc60a0ba6c67832"
+}
+{ 
+    "_id" : ObjectId("56f83f484f215d110012c9c4"), 
+    "filename" : "41605ad745837aac7e9f422b9e05afbf_tfss-f0644f31-9ded-47fb-94b9-d9b6fbadd957.jpg", 
+    "contentType" : "binary/octet-stream", 
+    "length" : NumberInt(116915), 
+    "chunkSize" : NumberInt(261120), 
+    "uploadDate" : ISODate("2016-03-27T20:15:05.074+0000"), 
+    "aliases" : null, 
+    "metadata" : null, 
+    "md5" : "b8e2bea6d1bf93eb776ebcc7d02a5421"
+}
+{ 
+    "_id" : ObjectId("56f84a6d4f215d110012c9cd"), 
+    "filename" : "96f6e2ee3029d5bb55f15c5459215443_tfss-e8d96834-40ee-48e2-bdf6-fd3ce8ff98b5-luke.jpg", 
+    "contentType" : "binary/octet-stream", 
+    "length" : NumberInt(296952), 
+    "chunkSize" : NumberInt(261120), 
+    "uploadDate" : ISODate("2016-03-27T21:02:37.942+0000"), 
+    "aliases" : null, 
+    "metadata" : null, 
+    "md5" : "c25594f11412019dcb33af1fd468f925"
+}
+{ 
+    "_id" : ObjectId("56f84a794f215d110012c9d1"), 
+    "filename" : "1fc877feb2f6e65f27d994dd82e6be7e_tfss-5dc6c0e5-4a46-4350-9783-e32d628feb21-hansolo9000.jpg", 
+    "contentType" : "binary/octet-stream", 
+    "length" : NumberInt(2214627), 
+    "chunkSize" : NumberInt(261120), 
+    "uploadDate" : ISODate("2016-03-27T21:02:51.519+0000"), 
+    "aliases" : null, 
+    "metadata" : null, 
+    "md5" : "2d688589f5002ca27eee9de5deee2b05"
+}
+{ 
+    "_id" : ObjectId("56f84a884f215d110012c9dc"), 
+    "filename" : "e5b63f230ab2e7dbbb7be42f395cb122_tfss-bf57a9e3-e8ff-479e-99d5-9081a54160ec-darth_v.jpg", 
+    "contentType" : "binary/octet-stream", 
+    "length" : NumberInt(1658801), 
+    "chunkSize" : NumberInt(261120), 
+    "uploadDate" : ISODate("2016-03-27T21:03:05.338+0000"), 
+    "aliases" : null, 
+    "metadata" : null, 
+    "md5" : "f44dee75571b5eaaf1f2edaeaf1f387b"
+}
+{ 
+    "_id" : ObjectId("57cb37965948ff1100803f03"), 
+    "filename" : "25df3d2936900eba3a64ac0456bb934e_avatar_3.jpg", 
+    "contentType" : "binary/octet-stream", 
+    "length" : NumberInt(326463), 
+    "chunkSize" : NumberInt(261120), 
+    "uploadDate" : ISODate("2016-09-03T20:50:30.819+0000"), 
+    "aliases" : null, 
+    "metadata" : null, 
+    "md5" : "f8fc6116b959011225f52f58b59f898d"
+}
+{ 
+    "_id" : ObjectId("57cb37a35948ff1100803f07"), 
+    "filename" : "d4c621e202a8ce173382664af989d7a2_avatar_2.jpg", 
+    "contentType" : "binary/octet-stream", 
+    "length" : NumberInt(459609), 
+    "chunkSize" : NumberInt(261120), 
+    "uploadDate" : ISODate("2016-09-03T20:50:43.833+0000"), 
+    "aliases" : null, 
+    "metadata" : null, 
+    "md5" : "94299776bb276c6177bbe8503aa60e0d"
+}
+{ 
+    "_id" : ObjectId("57cb37af5948ff1100803f0b"), 
+    "filename" : "0d63cbcef9eb95d10d88b7c090decd31_avatar_1.jpg", 
+    "contentType" : "binary/octet-stream", 
+    "length" : NumberInt(179533), 
+    "chunkSize" : NumberInt(261120), 
+    "uploadDate" : ISODate("2016-09-03T20:50:55.118+0000"), 
+    "aliases" : null, 
+    "metadata" : null, 
+    "md5" : "418400b472d9929c85a8c87ac5fd2c13"
+}
+{ 
+    "_id" : ObjectId("57cb38b15948ff1100803f14"), 
+    "filename" : "b70ec12aee5ead8b2e47112274d340cc_image_5.jpg", 
+    "contentType" : "binary/octet-stream", 
+    "length" : NumberInt(140612), 
+    "chunkSize" : NumberInt(261120), 
+    "uploadDate" : ISODate("2016-09-03T20:55:13.606+0000"), 
+    "aliases" : null, 
+    "metadata" : null, 
+    "md5" : "2c8244957dd8ba51ec40e4a9575f242a"
+}
+{ 
+    "_id" : ObjectId("57cb38c55948ff1100803f17"), 
+    "filename" : "e77141e272e8d4d4aba66fb14e8f4b71_image_4.jpg", 
+    "contentType" : "binary/octet-stream", 
+    "length" : NumberInt(61865), 
+    "chunkSize" : NumberInt(261120), 
+    "uploadDate" : ISODate("2016-09-03T20:55:33.382+0000"), 
+    "aliases" : null, 
+    "metadata" : null, 
+    "md5" : "e4dd72ebb6db36378ab7eff54eea18a5"
+}
+{ 
+    "_id" : ObjectId("57cb38d65948ff1100803f1a"), 
+    "filename" : "16572be69ca95e6781728d85d02ed8e3_image_3.jpg", 
+    "contentType" : "binary/octet-stream", 
+    "length" : NumberInt(91440), 
+    "chunkSize" : NumberInt(261120), 
+    "uploadDate" : ISODate("2016-09-03T20:55:50.830+0000"), 
+    "aliases" : null, 
+    "metadata" : null, 
+    "md5" : "abb24e27330b6272e2adea4e0c4301cf"
+}
+{ 
+    "_id" : ObjectId("57cb38eb5948ff1100803f1d"), 
+    "filename" : "4f9f7696631f351d56d68d0309248242_image_2.jpg", 
+    "contentType" : "binary/octet-stream", 
+    "length" : NumberInt(122013), 
+    "chunkSize" : NumberInt(261120), 
+    "uploadDate" : ISODate("2016-09-03T20:56:11.722+0000"), 
+    "aliases" : null, 
+    "metadata" : null, 
+    "md5" : "6146fb30740c08642ccf3a19530081c0"
+}
+{ 
+    "_id" : ObjectId("57cb390a5948ff1100803f20"), 
+    "filename" : "ef2ebc00ae3352ce20786fca18f67e6c_image_1.jpg", 
+    "contentType" : "binary/octet-stream", 
+    "length" : NumberInt(277363), 
+    "chunkSize" : NumberInt(261120), 
+    "uploadDate" : ISODate("2016-09-03T20:56:42.966+0000"), 
+    "aliases" : null, 
+    "metadata" : null, 
+    "md5" : "fb1ca62039db4e48f68d0c9334817ade"
+}
+{ 
+    "_id" : ObjectId("57cb397a5948ff1100803f24"), 
+    "filename" : "6e69cc4feb4cbbc229661ad0663f2567_image_6.jpg", 
+    "contentType" : "binary/octet-stream", 
+    "length" : NumberInt(190453), 
+    "chunkSize" : NumberInt(261120), 
+    "uploadDate" : ISODate("2016-09-03T20:58:34.093+0000"), 
+    "aliases" : null, 
+    "metadata" : null, 
+    "md5" : "09ee260825c540ad2dd57e3e60f5d784"
+}

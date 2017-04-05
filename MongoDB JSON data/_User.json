@@ -1,0 +1,33 @@
+{ 
+    "_id" : "D2oyw9cpi6", 
+    "email" : "arthur@dent.org", 
+    "_created_at" : ISODate("2015-05-05T07:59:09.644+0000"), 
+    "_perishable_token" : "v4Ei4QH3qXKDbMBJJLR7AvxNY", 
+    "avatar" : "0d63cbcef9eb95d10d88b7c090decd31_avatar_1.jpg", 
+    "username" : "arthur", 
+    "_hashed_password" : "$2a$10$ld0x3vXSmTWCHV9.Mn8rDOkb969XeKGTgxKu8tP95If7lWdyL2jqy", 
+    "_updated_at" : ISODate("2016-09-03T20:50:57.163+0000"), 
+    "_session_token" : "Ojxm9sSo24gmoCTXffMdYXx5D"
+}
+{ 
+    "_id" : "DgxPd4G5KO", 
+    "_perishable_token" : "uI9A9N0ybCMyxmlFH2tPUBgwO", 
+    "avatar" : "25df3d2936900eba3a64ac0456bb934e_avatar_3.jpg", 
+    "email" : "john@doe.com", 
+    "_session_token" : "o7PKidysVmy0cvRnPNFcbCiNg", 
+    "_updated_at" : ISODate("2016-09-03T20:51:03.927+0000"), 
+    "username" : "johndoe", 
+    "_created_at" : ISODate("2015-05-05T08:07:17.901+0000"), 
+    "_hashed_password" : "$2a$10$fyeoORi3Xm/oBrPIhaekjOri7eQhg4Z78I3uX3UABHNydPtsY6t8C"
+}
+{ 
+    "_id" : "xCfvt75LNr", 
+    "_updated_at" : ISODate("2016-09-03T20:51:11.000+0000"), 
+    "_session_token" : "bBb6aQNvdSjEGsNaMjZywNRBI", 
+    "_created_at" : ISODate("2015-05-05T07:54:55.561+0000"), 
+    "avatar" : "d4c621e202a8ce173382664af989d7a2_avatar_2.jpg", 
+    "email" : "jane@doe.com", 
+    "_hashed_password" : "$2a$10$/LDxvIt6PB1roaUn9KaeDOarMmU7tVL0TrUywmXhOBoWVnKLk/ajO", 
+    "_perishable_token" : "w3AHFz1at3uxAQsMAqS9ljgDe", 
+    "username" : "jane"
+}
