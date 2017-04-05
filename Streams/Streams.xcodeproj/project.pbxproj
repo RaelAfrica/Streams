@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F2892971E955E4C00730320 /* DateTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1F2892961E955E4C00730320 /* DateTools.bundle */; };
+		1F28929C1E956E1500730320 /* StreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F28929B1E956E1500730320 /* StreamViewController.swift */; };
 		1F9B12D21E955D2A0025E0A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B12D11E955D2A0025E0A5 /* AppDelegate.swift */; };
 		1F9B12D91E955D2A0025E0A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B12D81E955D2A0025E0A5 /* Assets.xcassets */; };
 		1F9B12DC1E955D2A0025E0A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9B12DA1E955D2A0025E0A5 /* LaunchScreen.storyboard */; };
@@ -17,6 +18,8 @@
 
 /* Begin PBXFileReference section */
 		1F2892961E955E4C00730320 /* DateTools.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DateTools.bundle; path = Pods/DateTools/DateTools/DateTools.bundle; sourceTree = "<group>"; };
+		1F2892991E9569B400730320 /* Streams-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Streams-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		1F28929B1E956E1500730320 /* StreamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamViewController.swift; sourceTree = "<group>"; };
 		1F9B12CE1E955D2A0025E0A5 /* Streams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Streams.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F9B12D11E955D2A0025E0A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F9B12D81E955D2A0025E0A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F28929A1E956DF300730320 /* StreamViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1F28929B1E956E1500730320 /* StreamViewController.swift */,
+			);
+			name = StreamViewController;
+			sourceTree = "<group>";
+		};
 		1F9B12C51E955D2A0025E0A5 = {
 			isa = PBXGroup;
 			children = (
@@ -63,10 +74,12 @@
 		1F9B12D01E955D2A0025E0A5 /* Streams */ = {
 			isa = PBXGroup;
 			children = (
+				1F28929A1E956DF300730320 /* StreamViewController */,
 				1F9B12D11E955D2A0025E0A5 /* AppDelegate.swift */,
 				1F9B12D81E955D2A0025E0A5 /* Assets.xcassets */,
 				1F9B12DA1E955D2A0025E0A5 /* LaunchScreen.storyboard */,
 				1F9B12DD1E955D2A0025E0A5 /* Info.plist */,
+				1F2892991E9569B400730320 /* Streams-Bridging-Header.h */,
 			);
 			path = Streams;
 			sourceTree = "<group>";
@@ -213,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F28929C1E956E1500730320 /* StreamViewController.swift in Sources */,
 				1F9B12D21E955D2A0025E0A5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,6 +346,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "n-a.Streams";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Streams-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -346,6 +361,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "n-a.Streams";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Streams-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let configuration = ParseClientConfiguration
+        {
+            $0.applicationId = "8580732883"
+            $0.clientKey = "5537084886"
+            $0.server = "https://protected-stream-59726.herokuapp.com/parse"
+            
+        }
+        
+        Parse.initialize(with: configuration)
+        
+        PFUser.logOut()
+        
+        var streamVC:StreamViewController = StreamViewController()
+        streamVC.title = "Streams"
+        
+        var navigationVC:UINavigationController = UINavigationController(rootViewController: streamVC)
+        
+        let frame = UIScreen.main.bounds
+        window = UIWindow(frame: frame)
+        
+        window!.rootViewController = navigationVC
+        window!.makeKeyAndVisible()
+        
         return true
     }
 
