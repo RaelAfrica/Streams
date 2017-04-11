@@ -61,8 +61,28 @@ class StreamViewController: PFQueryTableViewController, PFLogInViewControllerDel
         tableView.register(UINib(nibName: "PostTableViewCell_NoImage", bundle: nil), forCellReuseIdentifier: postCell_NoImageIdentifier)
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: userCellIdentifier)
 
-        
     }
+
+    override func viewWillAppear(_ animated: Bool)
+    {
+        if let user = self.user
+        {
+            // ...
+        }
+        else
+        {
+            self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "NewPostIcon"), style: UIBarButtonItemStyle.plain, target: self, action: #selector(onNewPostButtonTapped(_:)))
+        }
+    }
+
+    
+    func onNewPostButtonTapped(sender:UIBarButtonItem)
+    {
+        let newPostVC:NewPostViewController = NewPostViewController(nibName: "NewPostViewController", bundle: nil)
+        
+        self.navigationController?.pushViewController(newPostVC, animated: true)
+    }
+    
     
     override func viewDidAppear(_ animated: Bool) {
         
