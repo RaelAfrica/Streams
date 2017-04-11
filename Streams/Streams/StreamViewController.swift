@@ -13,14 +13,16 @@ import Bolts
 import DateTools
 
 
-class StreamViewController: PFQueryTableViewController, PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate {
+class StreamViewController: PFQueryTableViewController, PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate, UISearchResultsUpdating {
 
     let postCellIdentifier:String = "PostCell"
     let postCell_NoImageIdentifier:String = "PostCell_NoImage"
     let userCellIdentifier:String = "UserCell"
-    
-    
+
     var user:PFUser?
+
+    var searchController = UISearchResultsUpdating?
+    var isSearching:Bool = false
     
     override init(style: UITableViewStyle, className: String!)
     {
@@ -72,15 +74,41 @@ class StreamViewController: PFQueryTableViewController, PFLogInViewControllerDel
         else
         {
             self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "NewPostIcon"), style: UIBarButtonItemStyle.plain, target: self, action: #selector(onNewPostButtonTapped(_:)))
+            
+            self.navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "UserIcon"), style: UIBarButtonItemStyle.plain, target: self, action: #selector(onUserButtonTapped(_:)))
+            
+            searchController = UISearchController(searchResultsController: nil)
+            searchController?.searchResultsUpdater = self
+            searchController?.dimsBackgroundDuringPresentation = false
+            
+            tableView.tableHeaderView = searchController?.searchBar
+            searchController?.searchBar.sizeToFit() // Bug
         }
     }
 
+    func updateSearchResults(for searchController: UISearchController) {
+        
+        self.isSearching = searchController.searchBar.text?.characters.count ?? 0 > 0
+        self.tableView.allowsSelection = isSearching
+        
+        self.loadObjects()
+    }
+    
     
     func onNewPostButtonTapped(sender:UIBarButtonItem)
     {
         let newPostVC:NewPostViewController = NewPostViewController(nibName: "NewPostViewController", bundle: nil)
         
         self.navigationController?.pushViewController(newPostVC, animated: true)
+    }
+    
+    func onUserButtonTapped(_ sender:UIBarButtonItem)
+    {
+        if let currentUser = PFUser.current()
+        {
+            var streamVC:StreamViewController = StreamViewController(style: UITableViewStyle.plain, className: "Post", user: currentUser)
+            self.navigationController?.pushViewController(streamVC, animated: true)
+        }
     }
     
     
@@ -200,6 +228,25 @@ class StreamViewController: PFQueryTableViewController, PFLogInViewControllerDel
     //MARK: - Parse query
     
     override func queryForTable() -> PFQuery<PFObject> {
+        
+        if isSearching == true
+        {
+            var query:PFQuery = PFQuery(className:"_User")
+            query.order(byAscending: "username")
+            
+            if let text:string = searchController?.searchBar.text
+            {
+                query.whereKey("username", matchRegex: text, modifiers: "i")
+            }
+            
+            if objects != nil && objects!.count == 0
+            {
+                query.cachePolicy = PFCachePolicy.cacheThenNetwork
+            }
+            
+            return query
+        }
+        
         var query:PFQuery = PFQuery(className: "Post")
         query.includeKey("user")
         query.order(byDescending: "createdAt")
@@ -217,6 +264,20 @@ class StreamViewController: PFQueryTableViewController, PFLogInViewControllerDel
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath, object: PFObject?) -> PFTableViewCell?
     {
+        
+        if isSearching == true
+        {
+            var cell:PFTableViewCell? = tableView.dequeueReusableCell(withIdentifier: userCellIdentifier, for: indexPath) as? PFTableViewCell
+            
+            if cell == nil {
+                cell = PFTableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: userCellIdentifier)
+            }
+            
+            cell?.textLabel?.text = object?["username"] as? String
+            
+            return cell
+        }
+        
         var cell:PostTableViewCell?
         var identifier:String = postCellIdentifier
         var nibName:String = "PostTableViewCell"
@@ -272,5 +333,23 @@ class StreamViewController: PFQueryTableViewController, PFLogInViewControllerDel
         
         return cell
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    {
+        if(isSearching == false)
+        {
+            return
+        }
+        
+        searchController?.isActive = false
+        
+        if let user = self.object(at: indexPath) as? PFUser
+        {
+            var streamVC:StreamViewController = StreamViewController(style: UITableViewStyle.plain, className: "Post", user: user)
+            
+            self.navigationController?.pushViewController(streamVC, animated: true)
+        }
+    }
+    
     
 }
